@@ -1,7 +1,7 @@
 {
   "name": "antd-scss-theme-plugin",
   "description": "A Webpack plugin for customizing Ant Design with SCSS.",
-  "version": "1.0.8",
+  "version": "0.0.1",
   "main": "build/dist/lib/index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production babel src --out-dir build/dist/lib",
@@ -25,12 +25,12 @@
     "sass-loader",
     "styles"
   ],
-  "author": "Intoli, LLC <contact@intoli.com>",
+  "author": "nqhuy <nqh.webdev@gmail.com>",
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/intoli/antd-scss-theme-plugin/issues"
   },
-  "homepage": "https://github.com/intoli/antd-scss-theme-plugin",
+  "homepage": "https://nqhuy.dev",
   "files": [
     "build/dist"
   ],
@@ -40,12 +40,12 @@
     "scss-to-json": "^2.0.0"
   },
   "peerDependencies": {
-    "antd": "^3.2.0",
-    "less-loader": "^4.0.5",
-    "sass-loader": "^7.3.0"
+    "antd": "^4.14.0",
+    "less-loader": "^10.2.0",
+    "sass-loader": "^12.4.0"
   },
   "devDependencies": {
-    "antd": "^3.2.0",
+    "antd": "^4.14.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.1",
@@ -62,11 +62,11 @@
     "eslint-plugin-react": "^7.6.1",
     "jest": "^22.2.1",
     "less": "^2.3.7",
-    "less-loader": "^4.0.5",
-    "node-sass": "^4.7.2",
+    "less-loader": "^10.2.0",
+    "node-sass": "^6.0.1",
     "raw-loader": "^0.5.1",
     "rimraf": "^2.6.2",
-    "sass-loader": "^7.3.0",
+    "sass-loader": "^12.4.0",
     "webpack": "^3.10.0",
     "webpack-node-externals": "^1.6.0"
   }
